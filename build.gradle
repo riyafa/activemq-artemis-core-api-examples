@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'org.riyafa'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.apache.activemq', name: 'artemis-core-client', version: '2.7.0'
+}
